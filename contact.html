@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+   <link rel="manifest" href="/site.webmanifest">
+
+   <link rel="preload" href="./assets/fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="./assets/fonts/Inter-Bold.woff2" as="font" type="font/woff2" crossorigin>
+
+   <link rel="stylesheet" href="style.css">
+   <script src="script.js" defer></script>
+
+   <title>Contact Us</title>
+</head>
+
+<body>
+   <header class="header header__gallery">
+      <div class="container header__container">
+
+         <button class="burger header__burger" style="display: none;">
+            <span class="burger__line"></span>
+         </button>
+
+         <div class="header__logo logo">
+            <a href="index.html"><img src="assets/images/icon.svg" alt="logotype firm"
+                  class="logo__image logo-header"></a>
+         </div>
+
+         <nav class="header__navigation navigation">
+            <ul class="navigation__list">
+               <li class="navigation__item">
+                  <a href="newCars.html" class="navigation__link">NEW CARS</a>
+               </li>
+               <li class="navigation__item">
+                  <a href="#" class="navigation__link">PRE-OWNED CARS</a>
+               </li>
+               <li class="navigation__item">
+                  <a href="#" class="navigation__link">FINANCE</a>
+               </li>
+               <li class="navigation__item">
+                  <a href="#" class="navigation__link">LEASE VS BUY</a>
+               </li>
+               <li class="navigation__item navigation__item-contact">
+                  <a href="contact.html" class="navigation__link">CONTACT US</a>
+               </li>
+            </ul>
+         </nav>
+
+      </div>
+   </header>
+
+   <main class="main">
+
+      <section class="contact">
+         <div class="contact__container container">
+            <h2 class="contact__title title">Contact Us</h2>
+            <p class="contact__subtitle">Feel free to contact us with questions, potencial partnerships or media
+               inquiries</p>
+
+            <form class="contact__form" action="" method="post">
+
+               <div class="contact__fields field">
+                  <input class="field__line contact__input" required name="person" type="text" placeholder="Name">
+                  <input class="field__line contact__input" required name="e-mail" type="email" placeholder="E-mail">
+               </div>
+
+               <div class="contact__text">
+                  <textarea placeholder="Your text" name="text" id="" cols="" rows=""></textarea>
+               </div>
+
+               <button class="contact__submit" type="reset">submit</button>
+            </form>
+         </div>
+      </section>
+
+      <section class="news">
+         <div class="news__container container">
+            <div class="news__content">
+               <div class="news__block">
+                  <img src="assets/images/contact/jeepMon.jpg" alt="" class="news__block-screen">
+                  <div class="news__block-content">
+                     <p class="news__block-content--title">An easier way to buy your next Toyota</p>
+                     <a href="#" class="news__block-content--more">more</a>
+                  </div>
+               </div>
+               <div class="news__block">
+                  <img src="assets/images/contact/dog.jpg" alt="" class="news__block-screen">
+                  <div class="news__block-content">
+                     <p class="news__block-content--title">A Guide to Road-Tripping With Pets</p>
+                     <a href="#" class="news__block-content--more">more</a>
+                  </div>
+               </div>
+            </div>
+
+            <button class="button__more">show more</button>
+         </div>
+      </section>
+   </main>
+
+   <footer class="footer" style="padding-top: 155px;">
+      <div class="container footer__container">
+
+         <div class="footer__content">
+            <div class="footer__content-products text products">
+               <h4 class="text__title">Products</h4>
+               <ul class="text__list">
+                  <li class="text__list-item">
+                     <a href="#" class="text__list-item--link">Used</a></li>
+                  <li class="text__list-item">
+                     <a href="newCars.html" class="text__list-item--link">New</a></li>
+                  <li class="text__list-item">
+                     <a href="#" class="text__list-item--link">Sell your car</a></li>
+               </ul>
+            </div>
+            <div class="footer__content-resource text resources">
+               <h4 class="text__title">Resources</h4>
+               <ul class="text__list">
+                  <li class="text__list-item">
+                     <a href="#" class="text__list-item--link">Blog</a></li>
+                  <li class="text__list-item">
+                     <a href="#" class="text__list-item--link">FAQ</a></li>
+                  <li class="text__list-item">
+                     <a href="contact.html" class="text__list-item--link">Contact us</a></li>
+               </ul>
+            </div>
+            <div class="footer__content-workwith text workwith">
+               <h4 class="text__title">Work With TrueCar</h4>
+               <ul class="text__list">
+                  <li class="text__list-item">
+                     <a href="#" class="text__list-item--link">Dealers</a></li>
+                  <li class="text__list-item">
+                     <a href="#" class="text__list-item--link">Partners</a></li>
+                  <li class="text__list-item">
+                     <a href="#" class="text__list-item--link"></a></li>
+               </ul>
+            </div>
+            <div class="footer__content-about text about">
+               <h4 class="text__title">About</h4>
+               <ul class="text__list">
+                  <li class="text__list-item">
+                     <a href="#" class="text__list-item--link">About us</a></li>
+                  <li class="text__list-item">
+                     <a href="" class="text__list-item--link">Team</a></li>
+                  <li class="text__list-item">
+                     <a href="" class="text__list-item--link">Careers</a></li>
+               </ul>
+            </div>
+         </div>
+
+         <div class="footer__app">
+            <div class="footer__app-apple">
+               <img src="./assets/images/footer/appStore.svg" alt="">
+            </div>
+            <div class="footer__app-google">
+               <img src="./assets/images/footer/googlePlay.svg" alt="">
+            </div>
+         </div>
+
+         <div class="footer__policy">For questions about the TrueCar Auto Buying Service please call
+            <span>1-888-878-3227</span>.
+            <br>
+            Certified Dealers are contractually obligated by TrueCar to meet certain customer service requirements
+            and complete the TrueCar Dealer <br> Certification Program. <br>
+            TrueCar does not broker, sell, or lease motor vehicles. Unless otherwise noted, all vehicles shown on
+            this website are offered for sale by <br> licensed motor vehicle dealers. All vehicles are subject to
+            prior
+            sale. By accessing this website, you agree to the TrueCar Terms of Service and <br> Privacy Policy.
+         </div>
+
+         <div class="footer__right">
+            <p class="footer__policy-text">Terms of Service</p>
+            <p class="footer__policy-text">Privacy Policy</p>
+            <p class="footer__policy-text">Do Not Sell My Personal Information</p>
+         </div>
+      </div>
+   </footer>
+</body>
+
+</html>

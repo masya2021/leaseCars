@@ -1,0 +1,30 @@
+.video__subtitle {
+  padding-top: 20px;
+  color: var(--text-color-main);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+.video__player {
+  padding-top: 50px;
+  position: relative;
+}
+.video__player-bg {
+  display: flex;
+  justify-content: center;
+}
+.video__player-bg--image {
+  background: url("../images/Jeep.png");
+}
+.video__player-icon {
+  position: absolute;
+  left: calc(50% - 40px);
+  top: 50%;
+}
+.video__player-icon:hover {
+  transition: all 0.36s ease-in-out;
+  transform: scale(1.15);
+  cursor: pointer;
+}

@@ -1,0 +1,78 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --bg-main-color: #e8e8e8;
+  --text-color-main: #151515;
+  --svg-color-blue: #0066ff;
+  --color-white: #ffffff;
+  --color-bg-card: #D9D9D9;
+}
+
+*,
+*::before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  margin: 0 auto;
+  background-color: var(--color-white);
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+button {
+  padding: 0;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+.container {
+  max-width: 1260px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.title {
+  padding-top: 150px;
+  color: var(--text-color-main);
+  /* H2 */
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
